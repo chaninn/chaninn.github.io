@@ -112,15 +112,17 @@
                 </div>
                 <p>QSAR is an acronym for quantitative structure-activity relationship, which is a widely used ligand-based virtual screening approach for quantitatively correlating the structural features for a set of compounds with their respective biological activity (or simply "bioactivity"). QSAR modeling may be a cumbersome task owing to the flexibility of the individual components of the QSAR workflow. </p>
 <h3>QSAR workflow</h3>
-<p>A typical QSAR workflow comprises of the following steps:
-- Compile a dataset for QSAR modeling
-- Calculating the molecular descriptors for describing the structural features of the compounds in the dataset
-- Select a subset of descriptors to use via rational selection or feature selection
-- Perform data splitting (perhaps via Kennard-Stone algorithm) to separate the dataset into internal and external sets (i.e. corresponding to 80 and 20% from the original dataset)
-- Construct the QSAR model using the internal set as training data
-- Apply the above QSAR model against the external set
-- Compare the statistical performances of QSAR models from internal and external sets
-- Assess the robustness of the QSAR model (i.e. possibility of chance correlation?) via R^2 - Q^2, Y-scrambling (if regression model), applicability domain, etc.</p>
+<p>A typical QSAR workflow comprises of the following steps:</p>
+<ol>
+<li>Compile a dataset for QSAR modeling</li>
+<li>Calculating the molecular descriptors for describing the structural features of the compounds in the dataset</li>
+<li>Select a subset of descriptors to use via rational selection or feature selection</li>
+<li>Perform data splitting (perhaps via Kennard-Stone algorithm) to separate the dataset into internal and external sets (i.e. corresponding to 80 and 20% from the original dataset)</li>
+<li>Construct the QSAR model using the internal set as training data</li>
+<li>Apply the above QSAR model against the external set</li>
+<li>Compare the statistical performances of QSAR models from internal and external sets</li>
+<li>Assess the robustness of the QSAR model (i.e. possibility of chance correlation?) via R^2 - Q^2, Y-scrambling (if regression model), applicability domain, etc.</li>
+</ol>
 <h3>Links to QSAR paper</h3>
 <h4>General overview</h4>
 <ul>
