@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>Authors - Chanin Nantasenamat</title>
+    <title>Guidelines for QSAR modeling - Chanin Nantasenamat</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -10,15 +10,22 @@
 
 
 
+<link rel="canonical" href="./guidelines-for-qsar-modeling.html">
 
         <meta name="author" content="Chanin Nantasenamat" />
+        <meta name="keywords" content="QSAR,guidelines" />
+        <meta name="description" content="QSAR is an acronym for quantitative structure-activity relationship, which is a widely used ligand-based virtual screening approach for quantitatively correlating the structural features for a set of compounds with their respective biological activity (or simply &#34;bioactivity&#34;). Building QSAR modeling may be a cumbersome task owing to the flexibility to the ..." />
 
-    <!-- Open Graph tags -->
         <meta property="og:site_name" content="Chanin Nantasenamat" />
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" content="Chanin Nantasenamat"/>
-        <meta property="og:url" content="."/>
-        <meta property="og:description" content="Chanin Nantasenamat"/>
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Guidelines for QSAR modeling"/>
+        <meta property="og:url" content="./guidelines-for-qsar-modeling.html"/>
+        <meta property="og:description" content="QSAR is an acronym for quantitative structure-activity relationship, which is a widely used ligand-based virtual screening approach for quantitatively correlating the structural features for a set of compounds with their respective biological activity (or simply &#34;bioactivity&#34;). Building QSAR modeling may be a cumbersome task owing to the flexibility to the ..."/>
+        <meta property="article:published_time" content="2015-02-08" />
+            <meta property="article:section" content="Tutorials" />
+            <meta property="article:tag" content="QSAR" />
+            <meta property="article:tag" content="guidelines" />
+            <meta property="article:author" content="Chanin Nantasenamat" />
 
 
     <!-- Bootstrap -->
@@ -52,7 +59,7 @@
                          <li><a href="./pages/publication.html">
                              Publication
                           </a></li>
-                        <li >
+                        <li class="active">
                             <a href="./category/tutorials.html">Tutorials</a>
                         </li>
             </ul>
@@ -68,13 +75,69 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-9">
-        <ol class="breadcrumb">
-            <li><a href="." title="Chanin Nantasenamat"><i class="fa fa-home fa-lg"></i></a></li>
-            <li class="active">Authors</li>
-        </ol>
+            <ol class="breadcrumb">
+                <li><a href="." title="Chanin Nantasenamat"><i class="fa fa-home fa-lg"></i></a></li>
+                <li><a href="./category/tutorials.html" title="Tutorials">Tutorials</a></li>
+                <li class="active">Guidelines for QSAR modeling</li>
+            </ol>
 
-    <h1>Authors on Chanin Nantasenamat</h1>
-        <li><a href="./author/chanin-nantasenamat.html">Chanin Nantasenamat</a> (4)</li>
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="./guidelines-for-qsar-modeling.html"
+                       rel="bookmark"
+                       title="Permalink to Guidelines for QSAR modeling">
+                        Guidelines for QSAR modeling
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2015-02-08T14:47:00+07:00"> Sun 08 February 2015</time>
+    </span>
+
+
+
+<span class="label label-default">Tags</span>
+	<a href="./tag/qsar.html">QSAR</a>
+        /
+	<a href="./tag/guidelines.html">guidelines</a>
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>QSAR is an acronym for quantitative structure-activity relationship, which is a widely used ligand-based virtual screening approach for quantitatively correlating the structural features for a set of compounds with their respective biological activity (or simply "bioactivity"). Building QSAR modeling may be a cumbersome task owing to the flexibility to the individual components of the QSAR workflow. A typical QSAR workflow comprises of the following steps:
+<em> Compile a dataset for QSAR modeling
+</em> Calculating the molecular descriptors for describing the structural features of the compounds in the dataset
+<em> Select a subset of descriptors to use via rational selection or feature selection
+</em> Perform data splitting (perhaps via Kennard-Stone algorithm) to separate the dataset into internal and external sets (i.e. corresponding to 80 and 20% from the original dataset)
+<em> Construct the QSAR model using the internal set as training data
+</em> Apply the above QSAR model against the external set
+<em> Compare the statistical performances of QSAR models from internal and external sets
+</em> Assess the robustness of the QSAR model (i.e. possibility of chance correlation?) via R^2 - Q^2, Y-scrambling (if regression model), etc.</p>
+<h3>Links to QSAR paper</h3>
+<h4>QSAR workflow</h4>
+<ul>
+<li><a href="http://dx.doi.org/10.2174/138161207782794257">Predictive QSAR modeling workflow, model applicability domains, and virtual screening</a></li>
+</ul>
+<h4>Data splitting</h4>
+<ul>
+<li>Predictive QSAR modeling based on diversity sampling of experimental datasets for the training and test set selection <a href="http://dx.doi.org/10.1023/A:1020869118689">(J Comput Aid Mol Des)</a><a href="http://dx.doi.org/10.1023/A:1021372108686">(Mol Divers)</a></li>
+<li><a href="http://dx.doi.org/10.1021/ci300338w">Does rational selection of training and test sets improve the outcome of QSAR modeling?</a></li>
+</ul>
+<h4>Statistical measures</h4>
+<ul>
+<li><a href="http://dx.doi.org/10.1016/S1093-3263(01)00123-1">Beware of q2!</a></li>
+</ul>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
         </div>
         <div class="col-sm-3" id="sidebar">
             <aside>
